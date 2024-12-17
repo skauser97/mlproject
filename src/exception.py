@@ -3,7 +3,8 @@
 # common for entire code. we going to use in try catch block
 
 import sys
-import logging
+#import logging
+from src.logger import logging
 # sys lib  =manipulates diff part in runtime
 # ie will have info on exceptions
 
@@ -42,7 +43,7 @@ if __name__ == "__main__":
         logging.info("Divide by zero")
         raise CustomException(e, sys)
 
-        '''
+      '''  
 
 
 
